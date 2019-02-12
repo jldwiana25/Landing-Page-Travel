@@ -1,0 +1,92 @@
+@font-face{
+    font-family: myriad-pro;
+    src: url('Myriad-Pro.ttf');
+}
+body{
+    margin: 5px;
+    background-image: url('gambar/bgsepoer.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.menu{
+    padding-top: 50px;
+}
+.menu a{
+    font-size: 12pt;
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: 'myriad-pro';
+    font-style: italic;
+    font-weight: bold;
+}
+.buttone{
+    background:#e47926;
+    color: rgb(255, 255, 255);
+    border:#e47926;
+    border-radius: 15px;
+    padding:5px 10px 5px 10px ;
+}
+.buttone:before {
+	color: #FFFFFF;
+	content: " ";
+}
+.buttone:hover {
+    background-color: #FF7F24;
+    padding: 10pt 15px 10px 15px;
+    border-radius: 20px;
+}
+.buttone:hover:before {
+	font-size: 14pt;
+}
+.menu #logo{
+    padding-top: 30px;
+}
+#logo{
+    width: 15%;
+    float: right;
+    margin-right: 15px;
+    margin-top: -30px;    
+}
+.konten{
+    text-align: center;
+    justify-content: right;
+    padding-top: 150px;
+    align-content: right;
+    width: 40%;
+    float: right;
+    margin-right: -200px;
+}
+.konten h1{
+    font-family:'myriad-pro';
+    font-size: 30pt;
+    font-style: italic;
+    font-weight: bold;
+    color: #e47926;
+}
+.konten p{
+    font-family:'myriad-pro';
+    font-size: 15pt;
+    color: rgb(155, 152, 152);
+    font-style: italic;
+}
+#start {
+    font-size: 18pt;
+    font-family: 'myriad-pro';
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #e47926;
+    border: #e47926 3px solid;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+    color:#FFFFFF;
+    box-shadow: 1px 1px 2px #e47926, 1px 0 15px #e47926, 0 0 5px #e47926;
+}
+#start:hover {
+    content: "Start";
+    color: #e47926;
+    background-color: #FFFFFF;
+    border: #e47926 3px solid;
+    box-shadow: 1px 1px 2px #e47926, 1px 0 15px #e47926, 0 0 5px #e47926;
+}
